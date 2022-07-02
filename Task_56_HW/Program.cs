@@ -16,9 +16,10 @@ void PrintArray(int[,] array)
         Console.WriteLine();
     }
 }
-int minSumRow = int.MaxValue, indexMinRow = 0;
 void SumRow(int[,] array)
 {
+    int minSumRow = int.MaxValue;
+    int indexMinRow = 0;
     for (int i = 0; i < array.GetLength(0); i++)
     {
         int sumRow = 0;
