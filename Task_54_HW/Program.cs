@@ -1,5 +1,6 @@
 ﻿// Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
 
+
 int[,] array = { { 5, 8, 4, 7, 9, 2, 1 }, { 12, 18, 66, 35, 48, 69, 88 } };
 void PrintArray(int[,] array)
 {
@@ -36,4 +37,3 @@ PrintArray(array);
 SortArray(array);
 Console.WriteLine("Sotred array:");
 PrintArray(array);
-
